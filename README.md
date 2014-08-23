@@ -4,12 +4,12 @@ Sixnix
 Mutifarious and portable *nix assembly "Hello World" that runs unmodified on Intel 64 bit 
 versions of:
 
-Linux
-OpenBSD
-FreeBSD
-Dragonfly BSD
-NetBSD
-OpenIndiana (SunOS)
+- Linux
+- OpenBSD
+- FreeBSD
+- Dragonfly BSD
+- NetBSD
+- OpenIndiana (SunOS)
 
 Assemble this to make a binary that prints "Linux" on x86-64 Linux, "BSD" on x86-64 BSD 
 variants and "SunOS" on x86-64 Solaris (tested with OpenIndiana). 
