@@ -24,9 +24,9 @@ Next we test for SunOS by attempting to chdir into /system, if unsuccessful we c
 the BSD code. 
 
 Structurally the file is a standard ELF x86-64 binary with the addition of two additional 
-mandatory secions '.note.openbsd.ident' for OpenBSD and '.note.netbsd.ident' for 'NetBSD'. 
-The OSABI field in the ELF header must also be set to 0x09 ("FreeBSD") for FreeBSD to load the 
-file. 
+mandatory secions '.note.openbsd.ident' for OpenBSD and '.note.netbsd.ident' for NetBSD. 
+The OSABI field in the ELF header must also be set to 0x09 ("FreeBSD") for FreeBSD to load 
+the file. 
 
 Assemble on Linux with:
 ```
